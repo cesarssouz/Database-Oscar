@@ -1,5 +1,12 @@
 # Database-Oscar
 
+Quantas vezes Natalie Portamn ganhou?
+
+Q:
+```sql
+SELECT COUNT(*) * FROM indicados_ao_oscar WHERE like = "%Natalie Portamn%";
+```
+
 Quantos Oscars Natalie Portman ganhou?
 
 Amy Adams já ganhou algum Oscar?
