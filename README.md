@@ -6,6 +6,8 @@ Q:
 ```sql
 SELECT COUNT(*) * FROM indicados_ao_oscar WHERE = "Name" like = "%Natalie Portamn%";
 ```
+
+**Resposta**: 3 vezes
 # Quantos Oscars Natalie Portman ganhou?
 
 # Amy Adams já ganhou algum Oscar?
