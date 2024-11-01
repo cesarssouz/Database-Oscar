@@ -9,6 +9,10 @@ SELECT COUNT(*) * FROM indicados_ao_oscar WHERE = "Name" like = "%Natalie Portam
 
 **Resposta**: 3 vezes
 # Quantos Oscars Natalie Portman ganhou?
+Q:
+```sql
+SELECT * FROM indicados_ao_oscar WHERE nome_do_indicado like "%Natalie Portman%" AND vencedor = "true";
+```
 
 # Amy Adams já ganhou algum Oscar?
 
