@@ -17,6 +17,11 @@ SELECT * FROM indicados_ao_oscar WHERE nome_do_indicado like "%Natalie Portman%"
 **Resposta**: 1 vez.
 
 # Amy Adams já ganhou algum Oscar?
+```sql
+SELECT * FROM indicados_ao_oscar WHERE nome_do_indicado like "%Amy Adams%";
+```
+
+**Resposta**: Não
 
 # A série de filmes Toy Story ganhou um Oscar em quais anos?
 
