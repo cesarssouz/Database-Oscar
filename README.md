@@ -24,6 +24,10 @@ SELECT * FROM indicados_ao_oscar WHERE nome_do_indicado like "%Amy Adams%";
 **Resposta**: Não
 
 # A série de filmes Toy Story ganhou um Oscar em quais anos?
+```sql
+SELECT * FROM indicados_ao_oscar WHERE nome_do_filme like "%Toy Story%" AND vencedor = "true";
+```
+**Resposta**: Em 2011 e 2020
 
 # A partir de que ano que a categoria "Actress" deixa de existir?
 
