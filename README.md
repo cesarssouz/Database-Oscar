@@ -42,10 +42,24 @@ SELECT * FROM indicados_ao_oscar WHERE vencedor = "true" AND categoria = "ACTRES
 **Resposta**: Janet Gaynor
 
 # Na campo "Vencedor", altere todos os valores com "true" para 1 e todos os valores "false" para 0.
+```sql
+UPDATE indicados_ao_oscar SET vencedor = "1" WHERE vencedor = "true";
+UPDATE indicados_ao_oscar SET vencedor = "0" WHERE vencedor = "false";
+```
 
 # Em qual edição do Oscar "Crash" concorreu ao Oscar?
+```sql
+SELECT nome_do_filme, cerimonia FROM indicados_ao_oscar WHERE nome_do_filme like "%Crash";
+```
+
+**Resposta**: A 78
 
 # O filme Central do Brasil aparece no Oscar?
+```sql
+ SELECT * FROM indicados_ao_oscar WHERE nome_do_filme like "Central%";
+```
+
+**Resposta**: Sim, em 1999
 
 # Inclua no banco 3 filmes que nunca foram nem nomeados ao Oscar, mas que merecem ser.
 
